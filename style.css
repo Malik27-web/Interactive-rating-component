@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #141519;
+}
+
+.div1{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+display: flex;
+flex-direction: column;
+gap: 1.25rem;
+
+ max-width: 30rem;
+ width: 90%;
+min-height:22rem;
+padding: 3%;
+background-color: #212832;
+border-radius: 1.25rem;
+visibility: hidden;
+}
+.alert {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    gap: .5rem;
+    
+}
+.alert p{
+
+    color: red;
+    font-weight: 600;
+    opacity: 1;
+    visibility: hidden;
+}
+
+    .div2{
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        flex-direction: column;
+        gap: 1.55rem;       
+         max-width: 30rem;
+         width: 90%;
+        min-height:22rem;
+        
+        padding: 3%;
+        background-color: #212832;
+        border-radius: 1rem;
+        align-items: center;
+        /* visibility: hidden; */
+}
+.fleche{
+color: white;
+place-self: flex-start;
+cursor: pointer;
+
+}
+.div2 img{
+
+    width: 50%;
+    place-self: center;
+}
+.selection{
+
+    background-color: #262f38;
+    width: fit-content;
+    padding: 3%;
+    border-radius: 3rem;
+    place-self: center;
+    
+}
+.selection p{
+    color: #fb7715;
+    opacity: 1;
+    font-size: 1.25rem;
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.paragraph p{
+font-size: 1rem;
+
+}
+
+
+.circle{
+
+width: 3rem;
+height: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #272e38;
+border-radius: 50%;
+}
+h2{
+    color: white;
+    font-weight: 600;
+}
+p{
+    color: white;
+    font-weight: 200;
+    opacity: .5;
+    font-size: 1rem;
+}
+.numbers{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+.btn{
+
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: #262f38;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    opacity: .6;
+    cursor: pointer;
+}
+.btn:hover{
+background-color: #7c8898;
+font-size: 1.5rem;
+    opacity: 1;
+}
+.submit{
+width: 80%;
+place-self: center;
+padding: 3%;
+border-radius: 2rem;
+color: white;
+background-color:#fb7715 ;
+font-size: 1.25rem;
+font-weight: 500;
+cursor: pointer;
+}
+.submit:hover{
+
+background-color: white;
+color: #fb7715;
+font-weight: 600;
+
+}
