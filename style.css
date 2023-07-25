@@ -23,7 +23,7 @@ min-height:22rem;
 padding: 3%;
 background-color: #212832;
 border-radius: 1.25rem;
-visibility: hidden;
+/* visibility: hidden; */
 }
 .alert {
     display: flex;
@@ -57,7 +57,7 @@ visibility: hidden;
         background-color: #212832;
         border-radius: 1rem;
         align-items: center;
-        /* visibility: hidden; */
+        visibility: hidden;
 }
 .fleche{
 color: white;
